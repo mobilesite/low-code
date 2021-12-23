@@ -6,3 +6,4 @@ react-router-dom比react-router多了 <Link> <BrowserRouter> 这样的 DOM 类�
 
 BrowserRouter和HashRouter组件，前者使用pushState和popState事件构建路由，后者使用window.location.hash和hashchange事件构建路由。
 
+关于react-router-dom的使用，可以参考这篇文章：https://zhuanlan.zhihu.com/p/431389907
