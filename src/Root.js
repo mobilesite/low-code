@@ -10,6 +10,7 @@ import App from './App';
 import Projects from './Projects';
 import Editor from './Editor';
 import Project from './Project';
+import NotFound from './NotFound';
 
 function Root() {
   return (
@@ -24,6 +25,7 @@ function Root() {
         <Route path="/projects" element={<Projects/>} />
         <Route path="/editor" element={<Editor/>} />
         <Route path="/project/:id" element={<Project/>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     </BrowserRouter>
   );
