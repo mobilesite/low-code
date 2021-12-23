@@ -1,13 +1,13 @@
 import { useParams } from 'react-router-dom';
 
-function Project() {
+function ProjectPage() {
   const params = useParams();
-  
+
   return (
-    <div className="project">
+    <div className="dashboard-project-page">
       project {params.id}
     </div>
   );
 }
 
-export default Project;
+export default ProjectPage;
