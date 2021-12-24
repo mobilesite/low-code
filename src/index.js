@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Root from './Root';
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import './styles/index.less';
 
 ReactDOM.render(
   <React.StrictMode>

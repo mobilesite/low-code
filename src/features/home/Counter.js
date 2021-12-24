@@ -5,10 +5,10 @@ export default function Counter() {
   const { counterMinusOne } = useCounterMinusOne();
 
   return (
-    <div>
-      <div>{count}</div>
-      <button onClick={counterPlusOne}>+</button>
-      <button onClick={counterMinusOne}>-</button>
+    <div className='home-counter'>
+      <div className='count'>计数：{count}</div>
+      <button className='plus-one' onClick={counterPlusOne}>+</button>
+      <button className='minus-one' onClick={counterMinusOne}>-</button>
     </div>
   );
 }
